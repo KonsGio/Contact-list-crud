@@ -1,9 +1,14 @@
+import React from 'react';
 import './App.css';
+import { Header, AddContact, ContactList } from './components/index.js';
 
 function App() {
   return (
-    <div>HELLO
-    </div>
+    <div>
+      <Header/>
+      <AddContact/>
+      <ContactList/>
+   </div>
   );
 }
 
